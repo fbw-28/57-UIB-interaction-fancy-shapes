@@ -1,19 +1,24 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
 }
 
 section {
     margin-top: 10px;
+    background-color: cadetblue;
 }
 
 .task-one::before {
     content: "Once upon a time ";
+    background-color: blueviolet;
 }
 
 .task-one::after {
     content: "... The end.";
+    background-color: blueviolet;
 }
+
 
 .task-two {
     background-image: url(./assets/beach.jpg);
@@ -24,10 +29,7 @@ section {
 }
 
 .task-three {
-    background-image: url(./assets/smiley.jpg);
-    background-repeat: no-repeat;
     width: 430px;
     height: 430px;
     transform: rotate(180deg);
-    
 }
