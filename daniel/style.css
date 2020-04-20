@@ -39,12 +39,10 @@ section {
 
 /* ##### TASK 2 ##### */
 
-.task-three {
+.task-three img {
+    display: block;
     width: 30vh;
     height: 30vh;
     margin: 20px auto;
-    background-image: url(../assets/smiley.jpg);
-    background-size: contain;
-    background-repeat: none;
     transform: rotate(180deg);
 }
