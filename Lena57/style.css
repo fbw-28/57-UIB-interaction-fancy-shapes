@@ -31,6 +31,6 @@ section {
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
-.task-three_img {
+.task-three {
     transform: rotate(180deg);
 }
