@@ -1,0 +1,48 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-top: 10px;
+}
+
+  .clip-1 {
+    background: url(../assets/beach.jpg );
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+    clip-path: polygon(48% 10%, 81% 38%, 49% 69%, 16% 39%);
+
+
+}
+.clip-2 {
+    background: url(../assets/smiley.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 150px;
+    transform:  rotate(180deg) ;
+    margin-top: 20px;
+
+}
+a{
+   
+    background-color: aquamarine;
+  }
+ 
+  .first::before {
+    content: "Once upon a time...";
+    color: black;
+    background-color: purple;
+    font-weight: bolder
+}
+.and::after {
+    content: "...The end.";
+    color: black;
+    background-color: purple;
+    font-weight: bolder
+}
