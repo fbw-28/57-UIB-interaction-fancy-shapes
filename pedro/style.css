@@ -1,0 +1,49 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-top: 10px;
+}
+
+
+.task-one::before {
+    content: "Once upon a time...";
+    color: black;
+    font-size: 115%;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(25, 25, 216, 0.63);
+    
+
+}
+
+.task-one::after {
+    content: "...The end.";
+    color: black;
+    font-size: 115%;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(25, 25, 216, 0.63);
+
+}
+
+section::selection {
+    background-color: rgba(0, 0, 255, 0.356);
+}
+
+.task-two {
+    background-image: url(/assets/beach.jpg);
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+
+img {
+    width: 300px;
+    transform: rotate(180deg);
+}
