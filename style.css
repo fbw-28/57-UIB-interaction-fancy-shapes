@@ -1,8 +1,13 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
 }
 
 section {
     margin-top: 10px;
+}
+
+p {
+    background: #50F9F7;
 }
