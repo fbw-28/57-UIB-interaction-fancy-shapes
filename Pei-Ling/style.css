@@ -37,7 +37,6 @@ section {
 
 /* task 3 */
 
-.task-three {         
-    position: fixed;
+.task-three {     
     transform: rotate(180deg);    
 }
